@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.PlaceholderFragment">
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="204dp"
+        android:layout_height="48dp"
+        android:text="Exercice Triseps"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="332dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="201dp"
+        android:layout_height="52dp"
+        android:text="Exercices Biceps"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="204dp"
+        android:layout_height="48dp"
+        android:text="Quadriceps"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="605dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="201dp"
+        android:layout_height="52dp"
+        android:text="Exercices Epole"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="543dp" />
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.MyGym.AppBarOverlay">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="91dp"
+            android:gravity="center"
+            android:minHeight="?actionBarSize"
+            android:padding="@dimen/appbar_padding"
+            android:text="Exercices"
+            android:textAppearance="@style/TextAppearance.Widget.AppCompat.Toolbar.Title" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <com.google.android.material.tabs.TabLayout
+        android:layout_width="410dp"
+        android:layout_height="94dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="93dp">
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Male" />
+
+        <com.google.android.material.tabs.TabItem
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Female" />
+
+
+    </com.google.android.material.tabs.TabLayout>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="201dp"
+        android:layout_height="52dp"
+        android:text="Exercices Biceps"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="398dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="204dp"
+        android:layout_height="48dp"
+        android:text="Exercice Abdo"
+        tools:layout_editor_absoluteX="103dp"
+        tools:layout_editor_absoluteY="472dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
